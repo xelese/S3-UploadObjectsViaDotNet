@@ -56,19 +56,6 @@
     <ItemGroup>
       <Analyzer Include="..\packages\AWSSDK.S3.3.5.7.6\analyzers\dotnet\cs\AWSSDK.S3.CodeAnalysis.dll" />
     </ItemGroup>
-    <ItemGroup>
-      <Content Include="Data\Credentails\.DS_Store" />
-      <Content Include="Data\Credentails\AWS\NewFile1.txt" />
-      <Content Include="Data\Credentails\AWS\NewFile2.txt" />
-      <Content Include="Data\Credentails\AWS\object1.txt" />
-      <Content Include="Data\Credentails\AWS\ravi-keypair.pem" />
-      <Content Include="Data\Credentails\AWS\ravi_accessKeys.csv" />
-      <Content Include="Data\Credentails\Wasabi\.DS_Store" />
-      <Content Include="Data\Credentails\Wasabi\credentials (1).csv" />
-      <Content Include="Data\Credentails\Wasabi\credentials newuser.csv" />
-      <Content Include="Data\Credentails\Wasabi\credentials test account.csv" />
-      <Content Include="Data\Credentails\Wasabi\credentials.csv" />
-    </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
          Other similar extension points exist, see Microsoft.Common.targets.
