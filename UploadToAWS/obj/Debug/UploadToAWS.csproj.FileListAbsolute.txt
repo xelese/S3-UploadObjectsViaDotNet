@@ -1,0 +1,13 @@
+/Users/voletiravi/RiderProjects/PanjackSolution1/UploadToAWS/bin/Debug/UploadToAWS.exe
+/Users/voletiravi/RiderProjects/PanjackSolution1/UploadToAWS/bin/Debug/UploadToAWS.pdb
+/Users/voletiravi/RiderProjects/PanjackSolution1/UploadToAWS/bin/Debug/AWSSDK.Core.dll
+/Users/voletiravi/RiderProjects/PanjackSolution1/UploadToAWS/bin/Debug/AWSSDK.S3.dll
+/Users/voletiravi/RiderProjects/PanjackSolution1/UploadToAWS/bin/Debug/AWSSDK.Core.pdb
+/Users/voletiravi/RiderProjects/PanjackSolution1/UploadToAWS/bin/Debug/AWSSDK.Core.xml
+/Users/voletiravi/RiderProjects/PanjackSolution1/UploadToAWS/bin/Debug/AWSSDK.S3.pdb
+/Users/voletiravi/RiderProjects/PanjackSolution1/UploadToAWS/bin/Debug/AWSSDK.S3.xml
+/Users/voletiravi/RiderProjects/PanjackSolution1/UploadToAWS/obj/Debug/UploadToAWS.csprojAssemblyReference.cache
+/Users/voletiravi/RiderProjects/PanjackSolution1/UploadToAWS/obj/Debug/UploadToAWS.csproj.CoreCompileInputs.cache
+/Users/voletiravi/RiderProjects/PanjackSolution1/UploadToAWS/obj/Debug/UploadToAWS.csproj.CopyComplete
+/Users/voletiravi/RiderProjects/PanjackSolution1/UploadToAWS/obj/Debug/UploadToAWS.exe
+/Users/voletiravi/RiderProjects/PanjackSolution1/UploadToAWS/obj/Debug/UploadToAWS.pdb
