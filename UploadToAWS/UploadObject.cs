@@ -3,37 +3,43 @@
 
 using System;
 using System.Threading.Tasks;
-using Amazon.Runtime;
 using Amazon.S3;
 using Amazon.S3.Model;
 
 namespace UploadToAWS
 {
-    static class UploadObject
+    internal static class UploadObject
     {
         private static IAmazonS3 _s3Client;
-        
-        private const string BucketName = "download-versions-bucket";
 
-        private const string ObjectName1 = "abc.txt";
-        
+        private const string BucketName = "";
+
+        private const string ObjectName1 = "";
+
         // updated it to take any object from desktop, just adjust the file name above
         private static readonly string PathToDesktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
-        static async Task Main()
+        private static async Task Main()
         {
             // 1. this is necessary for the endpoint
             var config = new AmazonS3Config {ServiceURL = "https://s3.wasabisys.com"};
-            
+
             // this will allow you to call whatever profile you have
-            var credentials = new StoredProfileAWSCredentials("sahanip");
+            // var credentials = new StoredProfileAWSCredentials("sahanip");
+
+            // create s3 connection with credential files and config.
+            // _s3Client = new AmazonS3Client(credentials, config);
+
+            // input access key id and secret access key.
+            const string accessKeyId = "";
+            const string secretAccessKey = "";
             
             // create s3 connection with credential files and config.
-            _s3Client = new AmazonS3Client(credentials, config);
-            
+            _s3Client = new AmazonS3Client(accessKeyId, secretAccessKey, config);
+
             // The method expects the full path, including the file name.
             var path = $"{PathToDesktop}/{ObjectName1}";
-            
+
             await UploadObjectFromFileAsync(_s3Client, BucketName, ObjectName1, path);
         }
 
